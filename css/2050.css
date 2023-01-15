@@ -1,0 +1,34 @@
+.background-img{
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150vh;
+    padding-bottom: 100px;
+}
+.nav-link{
+    font-size: 19px;
+    font-weight: 800;
+    color: aliceblue;
+}
+.div-header{
+    padding-top: 300px;
+}
+.header{
+    font-weight: 900;
+    font-size: 80px;
+    color: aliceblue;
+}
+.link-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #A29CFF;
+    border-radius: 50px;
+   padding: 10px 50px 10px 50px ;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 800;
+}
+.link-btn:hover{
+    background-color: aliceblue;
+}
+.img-background{}

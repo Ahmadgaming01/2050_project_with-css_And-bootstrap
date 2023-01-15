@@ -1,3 +1,5 @@
+
+
 .background-img{
 
     background-repeat: no-repeat;
@@ -31,4 +33,75 @@
 .link-btn:hover{
     background-color: aliceblue;
 }
-.img-background{}
+.sec-tow{
+    font-size: 45px;
+    font-weight: 900;
+    
+}
+.sec-one{
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #A29CFF;
+}
+.div-tow{
+    padding-top: 100px;
+    padding-r: 50px;
+}
+.text-p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.a-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.icon-span{
+    background-color: #A29CFF;
+    border-radius: 35px;
+}
+.atch{
+    color: #A29CFF;
+    font-weight: 900;
+}
+.one{
+    font-weight: 900;
+}
+.img-service{
+    padding-left: 35px;
+}
+.icon:hover .icon-span{
+    transform:translateX(35px) ;
+
+
+}
+.icon-span {
+    display: block;
+    width: 64px;
+    transition: transform 0.3s ease;}
+    .p-whycosse{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .why-choose{
+        margin-top: 300px;
+    }
+    .a-link2{
+        text-decoration: none;
+    color: black;
+    font-weight: 900;
+   
+
+
+    }
+    .shadow{
+        border-bottom: #A29CFF solid 3px;
+        
+    }
+    .shadow:hover{
+        transform: translateY(-15px);
+    }
+    .shadow {
+        transition: transform 0.4s ease;
+    }

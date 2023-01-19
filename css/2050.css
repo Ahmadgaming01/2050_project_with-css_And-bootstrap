@@ -1,8 +1,27 @@
+.move-animation{
+    animation-name: moving;
+    transition-duration: 4s;
+}
 
-.navbar-fixed-top.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  }
+@keyframes moving{
+    0%{
+        transform: translate(120px 0px);
+    }
+    0%{
+        padding: -100px;
+    }
+    100%{
+        padding: 0px;
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+section .fixed-top{
+    
+    background-color : #A29CFF;
+}
 
 
 
@@ -32,7 +51,7 @@
     text-decoration: none;
     background-color: #A29CFF;
     border-radius: 50px;
-   padding: 10px 50px 10px 50px ;
+   padding: 10px 50px ;
     color: aliceblue;
     font-size: 18px;
     font-weight: 800;
@@ -64,10 +83,7 @@
     color: black;
     font-weight: 900;
 }
-.icon-span{
-    background-color: #A29CFF;
-    border-radius: 35px;
-}
+
 .atch{
     color: #A29CFF;
     font-weight: 900;
@@ -78,11 +94,17 @@
 .img-service{
     padding-left: 35px;
 }
+.icon-span{
+    background-color: #A29CFF;
+    border-radius: 35px;
+}
 .icon:hover .icon-span{
     transform:translateX(35px) ;
 
 
 }
+
+
 .icon-span {
     display: block;
     width: 64px;
@@ -102,13 +124,13 @@
 
 
     }
-    .shadow{
+    .chosse-card{
         border-bottom: #A29CFF solid 3px;
         
     }
-    .shadow:hover{
+    .chosse-card:hover{
         transform: translateY(-15px);
     }
-    .shadow {
+    .chosse-card {
         transition: transform 0.4s ease;
     }

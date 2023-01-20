@@ -23,6 +23,26 @@ section .fixed-top{
     background-color : #A29CFF;
 }
 
+/* 
+.img-animation{
+    animation-name: move-top;
+    transition-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes move-top{
+    0%{
+        transform: translateY(50px);
+    }
+    0%{
+        padding-bottom: 20px;
+    }
+    100%{
+        padding: 0px;
+    }
+    100%{
+        transform: translate(0px);
+    }
+} */
 
 
 
@@ -133,4 +153,22 @@ section .fixed-top{
     }
     .chosse-card {
         transition: transform 0.4s ease;
+    }
+
+
+
+    .features-item{
+        margin-top: 300px;
+    }
+
+    .features-icon{
+        background-color: #A29CFF;
+        padding: 14px;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .features-text{
+        padding-left: 90px;
     }
